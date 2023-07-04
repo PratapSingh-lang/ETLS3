@@ -33,8 +33,9 @@ public class CustomerDataGenerator {
         Random random = new Random();
         List<Customer> customers = new ArrayList<>();
 
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 500000 ; i++) {
             Customer customer = new Customer();
+            
             customer.setCustomerId(initialCustomerId + i);
             customer.setName(getRandomElement(names, random));
             customer.setSurname(getRandomElement(surnames, random));

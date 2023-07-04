@@ -17,7 +17,21 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!-- 
+	
+		 <dependency>
+	      <groupId>com.amazonaws</groupId>
+	      <artifactId>aws-java-sdk-s3</artifactId>
+	      <version>1.11.34</version>
+	    </dependency>
+	
+	    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-csv -->
+	    <dependency>
+	      <groupId>com.fasterxml.jackson.dataformat</groupId>
+	      <artifactId>jackson-dataformat-csv</artifactId>
+	      <version>2.12.0</version>
+	    </dependency>
+	
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -27,7 +41,7 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		-->
+		
 		
 		<dependency>
 		    <groupId>com.opencsv</groupId>
